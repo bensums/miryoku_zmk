@@ -11,4 +11,6 @@ jobs:
       board: '["seeeduino_xiao_ble"]'
       shield: '["totem_left","totem_right"]'
       alphas: '["qwerty"]'
+      extra: '["qwerty"]'
+      tap: '["qwerty"]'
       kconfig: '["CONFIG_ZMK_POINTING=y"]'
