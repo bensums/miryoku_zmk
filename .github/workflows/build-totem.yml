@@ -10,7 +10,7 @@ jobs:
     with:
       board: '["seeeduino_xiao_ble"]'
       shield: '["totem_left","totem_right"]'
-      alphas: '["default", "qwerty"]'
-      extra: '["default"]'
-      tap: '["default"]'
+      alphas: '["colemakdh", "qwerty"]'
+      extra: '["qwerty"]'
+      tap: '["colemakdh", "qwerty"]'
       kconfig: '["CONFIG_ZMK_POINTING=y"]'
